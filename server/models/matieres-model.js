@@ -6,46 +6,39 @@ var db = mysql.createConnection({
     database : 'elearning'
   });
 
+  
 module.exports = {
     selectAll : async (next)=>{
-        let sql = 'SELECT * FROM users';
+        let sql = 'SELECT * FROM matieres';
         db.query(sql, (err, result) => {
             if (err) throw err;
             next(result)
         });
     },
     selectById : async (id,next)=>{
-        console.log('user-model',id)
-        let sql = 'SELECT id,name,email FROM users WHERE id = ?'
+        let sql = 'SELECT * FROM matieres WHERE id = ?'
         db.query(sql,id,(err,result) => {
             if(err) throw err
             next(result[0])
         })
     },
-    selectByEmail : async (email,next)=>{
-        let sql = 'SELECT * FROM users WHERE email = ?'
-        db.query(sql,email,(err,result) => {
-            if(err) throw err
-            next(result[0])
-        })
-    },
-    insert : async (user,next)=>{
-        let sql = 'INSERT INTO users SET ?'
-        db.query(sql,user,(err, result) => {
+    insert : async (matiere,next)=>{
+        let sql = 'INSERT INTO matieres SET ?'
+        db.query(sql,matiere,(err, result) => {
             if (err) throw err;
             next(result)
         })
     },
-    update : async (id,{name,email},next)=>{
-        let sql = `UPDATE users SET name=?, email=? WHERE id=?`
+    update : async (id,matiere,next)=>{
+        let sql = `UPDATE matieres SET nom_matiere=? WHERE id=${id}`
 
-        db.query(sql,[name,email,id],(err, result) => {
+        db.query(sql,matiere.nom_matiere,(err, result) => {
             if (err) throw err;
             next(result)
         })
     },
     delete : async (id,next)=>{
-        let sql = `DELETE FROM users WHERE id=${id}`
+        let sql = `DELETE FROM matieres WHERE id=${id}`
         db.query(sql,(err,result) => {
             if(err) throw err;
             next(result)

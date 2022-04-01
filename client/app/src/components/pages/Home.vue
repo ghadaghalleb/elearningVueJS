@@ -1,0 +1,53 @@
+<template>
+<div>
+    <navbar />
+  <login/> 
+  
+  <Carousel />  
+  <Cards />
+  <Section />
+  <Collab/>
+  <Avis />
+  <Community/>
+<CardCarousel/>)
+  <Footer />
+</div>
+
+</template>
+
+
+<script>
+
+import login from '../login.vue'
+import Collab from '../Collab.vue'
+import navbar from '../navbar.vue'
+import Carousel from '../Carousel.vue'
+import Cards from '../Cards.vue'
+import Section from '../Section.vue'
+import Avis from '../Avis.vue'
+import Community from '../Community.vue'
+import Footer from '../Footer.vue'
+import CardCarousel from '../CardCarousel.vue'
+
+
+
+ export default {
+   name: 'App',
+  components:
+   {
+     navbar,
+     Collab,
+     Carousel,
+     login,
+     Cards,
+     Section,
+     Avis,
+     Community,
+     CardCarousel,
+     Footer
+   }
+ }
+
+</script>
+
+

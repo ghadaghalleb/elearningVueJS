@@ -3,47 +3,42 @@ var db = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
     password : '',
-    database : 'express_sql'
+    database : 'elearning'
   });
 
   
 module.exports = {
     selectAll : async (next)=>{
-        let sql = 'SELECT * FROM posts';
+        let sql = 'SELECT * FROM cours';
         db.query(sql, (err, result) => {
             if (err) throw err;
             next(result)
         });
     },
     selectById : async (id,next)=>{
-        let sql = 'SELECT * FROM posts WHERE id = ?'
+        let sql = 'SELECT * FROM cours WHERE id = ?'
         db.query(sql,id,(err,result) => {
             if(err) throw err
             next(result[0])
         })
     },
-    insert : async (post,next)=>{
-        let sql = 'INSERT INTO posts SET ?'
-        db.query(sql,post,(err, result) => {
+    insert : async (cours,next)=>{
+        let sql = 'INSERT INTO cours SET ?'
+        db.query(sql,cours,(err, result) => {
             if (err) throw err;
             next(result)
         })
     },
-    update : async (id,post,next)=>{
-        let title = post.title ? `title='${post.title}'` : null;
-        let body = post.body ? `body='${post.body}'` : null;
+    update : async (id,cours,next)=>{
+        let sql = `UPDATE cours SET nom_cours=? WHERE id=${id}`
 
-        let data = title && body ? title+','+body : title ? title : body
-
-        let sql = `UPDATE posts SET ${data} WHERE id=${id}`
-
-        db.query(sql,(err, result) => {
+        db.query(sql,cours.nom_cours,(err, result) => {
             if (err) throw err;
             next(result)
         })
     },
     delete : async (id,next)=>{
-        let sql = `DELETE FROM posts WHERE id=${id}`
+        let sql = `DELETE FROM cours WHERE id=${id}`
         db.query(sql,(err,result) => {
             if(err) throw err;
             next(result)

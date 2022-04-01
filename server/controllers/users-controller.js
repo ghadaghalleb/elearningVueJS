@@ -50,8 +50,8 @@ module.exports = {
         })
     },
     put : (req,res)=>{
-        if(!req.userid)
-            return res.status(400).json({success : false, message : "Access denied, please login."})
+        // if(!req.userid)
+        //     return res.status(400).json({success : false, message : `Access denied, please login.`})
         userModel.update(req.params.id,req.body, result =>{res.json({success : true , result})})
     },
     delete : (req,res)=>{
