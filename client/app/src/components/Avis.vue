@@ -1,12 +1,12 @@
 <template>
 <div>
-  <section class="home-testimonial mt-5">
+  <section class="home-testimonial mt-3 ">
     <div class="container-fluid">
         <div class="row d-flex justify-content-center testimonial-pos">
             <div class="col-md-12 pt-4 d-flex justify-content-center">
                 <h3>Testimonials</h3>
             </div>
-            <div class="col-md-12 d-flex justify-content-center">
+            <div class="col-md-12 d-flex justify-content-center ">
                 <h2>Explore the students experience</h2>
             </div>
         </div>
@@ -16,7 +16,7 @@
                     <div class="col-md-4 style-3">
                         <div class="tour-item ">
                             <div class="tour-desc bg-white">
-                                <div class="tour-text color-grey-3 text-center">“At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.”</div>
+                                <div class="tour-text color-grey-3 text-center">“Proposer un MBA en ligne, similaire à un MBA classique, mais à un prix abordable est un véritable défi. Ce programme révolutionne complètement l'enseignement supérieur.”</div>
                                 <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/6625914/pexels-photo-6625914.jpeg" alt=""></div>
                                 <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
                                 <div class="link-position d-flex justify-content-center">Student</div>
@@ -26,7 +26,7 @@
                     <div class="col-md-4 style-3">
                         <div class="tour-item ">
                             <div class="tour-desc bg-white">
-                                <div class="tour-text color-grey-3 text-center">“At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.”</div>
+                                <div class="tour-text color-grey-3 text-center">“Proposer un MBA en ligne, similaire à un MBA classique, mais à un prix abordable est un véritable défi. Ce programme révolutionne complètement l'enseignement supérieur.”</div>
                                 <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
                                 <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
                                 <div class="link-position d-flex justify-content-center">Student</div>
@@ -36,7 +36,7 @@
                     <div class="col-md-4 style-3">
                         <div class="tour-item ">
                             <div class="tour-desc bg-white">
-                                <div class="tour-text color-grey-3 text-center">“At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.”</div>
+                                <div class="tour-text color-grey-3 text-center">“Proposer un MBA en ligne, similaire à un MBA classique, mais à un prix abordable est un véritable défi. Ce programme révolutionne complètement l'enseignement supérieur.”</div>
                                 <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/4946604/pexels-photo-4946604.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
                                 <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
                                 <div class="link-position d-flex justify-content-center">Student</div>
@@ -68,12 +68,12 @@ export default {
 
 <style scoped>
 .home-testimonial {
-    background-color: #231834;
+    background-color: #ebf3ff;
     height: 380px
 }
 
 .home-testimonial-bottom {
-    background-color: #f8f8f8;
+    background-color: rgb(20, 0, 199);
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     margin-top: 20px;
     margin-bottom: 0px;
@@ -86,11 +86,12 @@ export default {
     color: var(--orange);
     font-size: 14px;
     font-weight: 500;
-    text-transform: uppercase
+    text-transform: uppercase;
+    color: rgb(20, 0, 199);
 }
 
 .home-testimonial h2 {
-    color: white;
+    color: rgb(20, 0, 199);
     font-size: 28px;
     font-weight: 700
 }

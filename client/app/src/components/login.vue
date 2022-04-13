@@ -2,22 +2,20 @@
   <div class="d-flex" >
 
 <div class="header">
- <h1>Apprenez sans limites</h1>
+    <h1>Apprenez sans limites</h1>
     <h2>Développez de nouvelles compétences pour ce sentiment <br> "c'est mon année" avec des cours,
     des certificats et des diplômes d'universités <br> et d'entreprises de classe mondiale.</h2>
 
        <div class="d-flex justify-content-center">
-    <button class="btn btn-sm  btn-primary " type="submit">login </button>              
-     <button class="btn btn-sm  btn-primary" type="submit"> Inscrivez-Vous Gratuitement </button>
+       <button class="btn btn-sm  btn-primary " type="submit">login </button>              
+       <button class="btn btn-sm  btn-primary" type="submit"> Inscrivez-Vous Gratuitement </button>
      
 </div>
 
    </div >
 
 
-<div>
-  <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/6JVJEaAT8FWwiBfVl1vECY/f5c7eb90291561ae112d6c302c8fd16c/NYCampaign_HeaderImage_Paulina_918x992.png?auto=format%2Ccompress&dpr=1&w=459&h=497&q=40" class="mt-5" alt="">
-</div>
+
    
 
   </div>

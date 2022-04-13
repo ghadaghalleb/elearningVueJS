@@ -2,14 +2,13 @@
 <div>
     <navbar />
   <login/> 
-  
+
   <Carousel />  
   <Cards />
   <Section />
   <Collab/>
   <Avis />
   <Community/>
-<CardCarousel/>)
   <Footer />
 </div>
 
@@ -27,7 +26,6 @@ import Section from '../Section.vue'
 import Avis from '../Avis.vue'
 import Community from '../Community.vue'
 import Footer from '../Footer.vue'
-import CardCarousel from '../CardCarousel.vue'
 
 
 
@@ -43,8 +41,8 @@ import CardCarousel from '../CardCarousel.vue'
      Section,
      Avis,
      Community,
-     CardCarousel,
-     Footer
+     Footer,
+      
    }
  }
 

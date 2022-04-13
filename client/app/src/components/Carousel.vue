@@ -1,5 +1,4 @@
 <template>
-<h1 class="text-dark mt-5">nos actualités</h1>
 
 <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
 
@@ -11,7 +10,7 @@
 
   <div class="carousel-inner carousel-fade ">
     <div class="carousel-item active" data-bs-interval="2000">
-      <img src="../assets/10.jpg" class=" d-block   " style="width:100%;height:600px" alt="...">
+      <img src="../assets/1.jpg" class=" d-block   " style="width:100%;height:600px" alt="...">
       
       
 
@@ -27,7 +26,7 @@
     </div>
       </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="../assets/11.jpg" class="d-block  " style="width:100%;height:600px" alt="...">
+      <img src="../assets/2.jpg" class="d-block  " style="width:100%;height:600px" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h2 class="text-start">L'art 3D simplifié : dessiner et peindre avec Procreate 5</h2>
         <h3 class="text-start">Explore a groundbreaking new toolset with digital artist and Procreate expert Stéphane Bourez.</h3>
@@ -36,7 +35,7 @@
         </div>      </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="../assets/9.jpg" class="d-block"  style="width:100%;height:600px" alt="...">
+      <img src="../assets/3.jpg" class="d-block"  style="width:100%;height:600px" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h2 class="text-start">L'art 3D simplifié : dessiner et peindre avec Procreate 5</h2>
         <h3 class="text-start">Explore a groundbreaking new toolset with digital artist and Procreate expert Stéphane Bourez.</h3>

@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light  "     >
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light  "  >
 
 
   <div class="container-fluid">
@@ -15,13 +15,20 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Explorer 
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">    
-           <li><a class="dropdown-item" href="#">Matieres </a></li>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">  
+             
+           <li> 
+             <router-link to="/certifications" class="router">
+             <div class="dropdown-item" >certifications </div> 
+             </router-link> 
+           </li>
+
+<!--              
            <li><a class="dropdown-item" href="#">Actualites </a></li>
-           <li><a class="dropdown-item" href="#">Certifications</a></li>           
+           <li><a class="dropdown-item" href="#">cours</a></li>            -->
           </ul>
         </li>
-        <!-- toufa hne ll dropdown mta3 ll explorer --> 
+       
         </ul>
 
      
@@ -40,10 +47,7 @@
           </ul>
         </li> 
 
-        <form class="d-flex p-2">
-        <input class=" form-control  me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-sm btn-outline-primary  btn-primary" type="submit">Search</button>
-      </form>
+        
         </ul>
 
         
@@ -98,7 +102,7 @@ export default {
 
 <style scoped>
 .navbar {
-    background-color: #ffffff;
+  background-color: #ffffff;
     padding-top: .1rem;
     padding-bottom: .1rem;
 }

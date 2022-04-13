@@ -1,28 +1,26 @@
 <template>
 <div>
-<h1 class="text-dark text-center mt-5">RESPONSABLE FILIERE</h1>
-    <div class="Bottom-bar"></div>
+<div class="comm"  > 
+  <h1 class="text-center" >Provenant de la communauté Coursera </h1>
+    <div class="d-flex justify-content-center">
 
-    <div class="d-flex justify-content-center mt-3">
       <div>
-        <img src="../assets/1.jpg" width="250" class="m-3" alt="" />
-        <p class="text-center">M.Hamza Youssef</p>
-        <p class="text-center">hamza.youssef@itbs.tn</p>
-        <p class="text-center">+216 54 593 418</p>
+        <img src="../assets/ghada.jpg" width="250" class="m-4" alt="" />
+        <h2 class="text-center">GHADA GHALLEB</h2>
+        <h6 class="text-center">Ghadaghalleb07@gmail.com</h6>
+      
       </div>
+
       <div>
         <img
-          src="../assets/1.jpg"
-          width="250"
-          
-          class="m-3"
-          alt=""
-        />
-        <p class="text-center">M.Med Ali Sammoud</p>
-        <p class="text-center">Mohamedali.sammoud@itbs.tn</p>
-        <p class="text-center">+216 26 524 036</p>
+          src="../assets/nour.jpg" width="240" class="m-4" alt="" />
+        <h2 class="text-center">NOUR AFFES</h2>
+        <h6 class="text-center">Nouraffes000@itbs.tn</h6>
+      
       </div>
+
     </div>
+</div>
 </div>
 </template>
 
@@ -37,11 +35,16 @@ export default {
 
 <style>
 
-.Bottom-bar {
-  border-style: solid;
-  border-bottom-width: 5px;
-  border-color: rgb(255, 192, 0);
-  width: 130px;
-  margin: 0px auto;
+.h2,h2 {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  line-height: 26px;
+  font-weight: 300;
+  color: rgb(56, 45, 139);
+  font-size: 1.5rem;
+}
+
+
+.comm{
+    margin-top: 200px;
 }
 </style>
