@@ -3,7 +3,6 @@
     <navbar />
   <login/> 
 
-  <Carousel />  
   <Cards />
   <Section />
   <Collab/>
@@ -20,7 +19,7 @@
 import login from '../login.vue'
 import Collab from '../Collab.vue'
 import navbar from '../navbar.vue'
-import Carousel from '../Carousel.vue'
+// import Carousel from '../Carousel.vue'
 import Cards from '../Cards.vue'
 import Section from '../Section.vue'
 import Avis from '../Avis.vue'
@@ -35,7 +34,7 @@ import Footer from '../Footer.vue'
    {
      navbar,
      Collab,
-     Carousel,
+    //  Carousel,
      login,
      Cards,
      Section,

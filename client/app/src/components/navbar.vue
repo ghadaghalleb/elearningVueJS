@@ -3,66 +3,45 @@
 
 
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">nom de notre site </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-        <!-- hedhy ll drop down mta3 explorer  -->
-        <li class="nav-item dropdown  ">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Explorer 
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">  
-             
-           <li> 
-             <router-link to="/certifications" class="router">
-             <div class="dropdown-item" >certifications </div> 
-             </router-link> 
-           </li>
-
-<!--              
-           <li><a class="dropdown-item" href="#">Actualites </a></li>
-           <li><a class="dropdown-item" href="#">cours</a></li>            -->
-          </ul>
-        </li>
-       
-        </ul>
-
-     
-       
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <!-- hedhy ll drop down mta3 explorer  -->
-        <li class="nav-item dropdown  ">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            ressources 
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">    
-           <li><a class="dropdown-item" href="#">notre equipe</a></li>
-           <li><a class="dropdown-item" href="#">avis</a></li>
+      <ul class="navbar-nav  me-auto mb-2 mb-lg-0 ">
+        <nav class="navbar navbar-expand-lg  ">
+          <a class="navbar-brand" href="#">LEARN.</a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+           </button>
            
-          </ul>
-        </li> 
-
+           <div class="col-xs-11 text-right menu-1">
+           <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#actualités">Actualités<span class="sr-only">(current)</span></a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cours">Cours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#certifications">Certifications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#communauté">Communauté  </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#avis">Avis</a>
+              </li>
+             
+            </ul>
+          </div>
         
-        </ul>
-
-        
-        </div>
-
- 
- 
+        </nav>
+      </ul>
 
 
       <form class=" p-2">
-        <button class="btn btn1-sm btn-outline-pimary " type="submit">login </button>        
-        
+        <button class="btn btn1-sm btn-outline-pimary" href="#login" type="submit">login </button>         
       </form>
        
-      <button class="btn btn-sm btn-outline-primary btn-primary" type="submit">
+      <button class="btn btn-sm btn-outline-primary btn-primary" href="#login" type="submit">
            Inscrivez-Vous <br>
             Gratuitement 
       </button>
@@ -77,10 +56,6 @@
 </nav>
 
 </template>
-
-
-
-
 
 
 <script>
@@ -101,6 +76,14 @@ export default {
 
 
 <style scoped>
+
+.nav-link:hover {
+    font-weight: 700;
+    color: rgba(0,0,0,.7);
+}
+
+
+
 .navbar {
   background-color: #ffffff;
     padding-top: .1rem;
@@ -131,12 +114,6 @@ export default {
 }
 
 
-.dropdown-menu.show {
-  width: 300px;
-  display: block;
-}
-
-
 .nav-link {
     display: block;
     padding: 15px
@@ -149,6 +126,7 @@ border: 1px solid blue;
 border-radius: 1.2rem;
 color: blue;
 }
+
 .form-control{
 border-radius: 1.2rem;
 

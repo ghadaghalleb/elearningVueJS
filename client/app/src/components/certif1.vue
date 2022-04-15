@@ -8,9 +8,7 @@
             <h1 class="mb-3">Certifications professionnelles </h1>
             <h5 class="mb-4">Pour améliorer les performances de votre entreprise,  <br> 
             l'obtention d'une certification professionnelle est un atout indispensable à la réussite de vos projets.</h5>
-            <a class="btn btn-outline-light btn-lg m-2" href="https://www.youtube.com/watch?v=c9B4TPnak1A" role="button"
-              rel="nofollow" target="_blank">Login </a>
-            <a class="btn btn-outline-light btn-lg m-2" href="https://mdbootstrap.com/docs/standard/" target="_blank"
+            <a class="btn btn-outline-light btn-lg m-2" href="login" target="_blank"
               role="button">ESSAYER GRATUITEMENT </a>
           </div>
         </div>

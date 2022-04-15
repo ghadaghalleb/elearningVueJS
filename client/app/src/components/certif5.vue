@@ -11,7 +11,7 @@
                </div>
                <div class="col-md-7">
                   <div class="titlepage">
-                     <h2>Google Project Management google</h2>
+                     <h2>IBM Data Engineering </h2>
                      <span></span>
                             <p>This Professional Certificate is for anyone who wants to develop job-ready skills,   
                          <br> tools,  and a portfolio for an entry-level data engineer position. 
@@ -19,7 +19,8 @@
                          <br> you will immerse yourself in the role of a data engineer
                          <br> and acquire the essential skills you need to work with a range of
                          <br>  tools and databases to design, deploy,
-                         <br> and manage structured and unstructured data.  .</p>                         <a class="read_more">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                         <br> and manage structured and unstructured data.  .</p>           
+                          <a class="read_more"  href="#IBM Data Engineering">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                   </div>
                </div>
             </div>

@@ -1,23 +1,21 @@
 <template>
   <div class="d-flex" >
 
-<div class="header">
+<div class="header ">
+ 
+
     <h1>Apprenez sans limites</h1>
     <h2>Développez de nouvelles compétences pour ce sentiment <br> "c'est mon année" avec des cours,
-    des certificats et des diplômes d'universités <br> et d'entreprises de classe mondiale.</h2>
+        des certificats et des diplômes d'universités <br> et d'entreprises de classe mondiale.</h2>
 
        <div class="d-flex justify-content-center">
        <button class="btn btn-sm  btn-primary " type="submit">login </button>              
-       <button class="btn btn-sm  btn-primary" type="submit"> Inscrivez-Vous Gratuitement </button>
-     
-</div>
+       <button class="btn btn-sm  btn-primary" type="submit"> Inscrivez-Vous Gratuitement </button>  
+      </div>
+  
+
 
    </div >
-
-
-
-   
-
   </div>
 
 </template>
@@ -35,11 +33,13 @@ export default {
 
 <style scoped>
 
+.flotte{
+float: right;
+}
+
 
 .header{
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    background-size: cover;
     color: rgb(0, 0, 0);
     padding: 100px;
     padding-left: 20px;

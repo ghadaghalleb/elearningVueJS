@@ -14,7 +14,7 @@
                        <br> Apprenez les bases de la conception UX, y compris l'empathie avec les utilisateurs, 
                        <br> la construction de structures filaires et de prototypes et
                        <br> la réalisation de recherches pour tester vos conceptions.</p>     
-                       <a class="read_more">Lire la suite<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                       <a class="read_more" href="#Google UX Design Certificate">Lire la suite<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                   </div>
                </div>
                <div class="col-md-5">

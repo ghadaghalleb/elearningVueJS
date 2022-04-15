@@ -7,13 +7,13 @@
             <div class="row d_flex">
                <div class="col-md-7">
                   <div class="titlepage">
-                     <h2>Google Project Management google</h2>
+                     <h2>Google Project Management</h2>
                      <span></span>
                      <p>Lancez-vous dans le domaine en pleine croissance de la gestion de projet 
                          <br> avec un certificat professionnel développé par Google. 
                          <br> Découvrez comment gérer des projets de manière efficace et efficiente, 
                          <br> en utilisant des méthodes traditionnelles et agiles. </p> 
-                       <a class="read_more">Lire la suite<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                       <a class="read_more" href="#Google Project Management">Lire la suite<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                   </div>
                </div>
                <div class="col-md-5">
