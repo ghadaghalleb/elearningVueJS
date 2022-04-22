@@ -1,12 +1,13 @@
 <template>
 <div>
     <navbar />
-  <login/> 
-
+  <home/> 
+ <Carousel/>
   <Cards />
   <Section />
   <Collab/>
   <Avis />
+  
   <Community/>
   <Footer />
 </div>
@@ -16,10 +17,10 @@
 
 <script>
 
-import login from '../login.vue'
+import home from '../home.vue'
 import Collab from '../Collab.vue'
 import navbar from '../navbar.vue'
-// import Carousel from '../Carousel.vue'
+import Carousel from '../Carousel.vue'
 import Cards from '../Cards.vue'
 import Section from '../Section.vue'
 import Avis from '../Avis.vue'
@@ -34,8 +35,8 @@ import Footer from '../Footer.vue'
    {
      navbar,
      Collab,
-    //  Carousel,
-     login,
+     Carousel,
+     home,
      Cards,
      Section,
      Avis,

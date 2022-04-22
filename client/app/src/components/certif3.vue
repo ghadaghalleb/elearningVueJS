@@ -42,7 +42,7 @@ export default {
 
 
 .mobile {
-    background-color:rgb(30,144,255);
+    background-color:rgb(29 106 178);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 90px 0;

@@ -80,7 +80,7 @@ margin-top: 200px;
 .btn1 {
   font-size: 20px;
   text-decoration: none;
-  color: rgb(20, 0, 199);
+  color: #094296;
 
 }
 .btn1:hover{

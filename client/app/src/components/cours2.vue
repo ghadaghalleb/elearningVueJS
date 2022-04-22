@@ -6,19 +6,18 @@
             <div class="row d_flex">
                <div class="col-md-5">
                   <div class="mobile_img">
-                     <figure><img width="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV7vZ0_Xs4Qjx1uLGcUSgLhLnv75gGyan46g&usqp=CAU" alt="#"/></figure>
+                     <figure><img src="https://quedulourd.com/wp-content/uploads/2020/07/100-gratuit-Cours-de-developpeur-Web-HTML-CSS-JavaScript.jpg" alt="#"/></figure>
                   </div>
                </div>
                <div class="col-md-7">
                   <div class="titlepage">
-                     <h2>IBM Data Engineering </h2>
+                     <h2>Fullstack JS</h2>
                      <span></span>
-                            <p>This Professional Certificate is for anyone who wants to develop job-ready skills,   
-                         <br> tools,  and a portfolio for an entry-level data engineer position. 
-                         <br> Throughout the self-paced online courses,you will immerse yourself in the role of a data 
-                         <br> engineer and acquire the essential skills you need to work with a range of  
-                         <br> tools and databases to design, deploy and manage structured and unstructured data.  .</p>           
-                          <a class="read_more"  href="#IBM Data Engineering">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                     <p>LEARN vous propose une formation Full Stack JavaScript, où vous apprendrez 5 technologies 
+                    <br>  en front-end (HTML, CSS et JavaScript), en en back-end (Node. js et SQL).
+                    <br> Cette formation a pour objectif de former des professionnels du web JavaScript «prêt à l'emploi».
+                     </p>
+                     <a class="read_more">Lire la suite <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                   </div>
                </div>
             </div>
@@ -46,7 +45,7 @@ export default {
 
 
 .mobile {
-    background-color:rgb(29 106 178);
+    background-color:rgb(0 84 157);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 90px 0;

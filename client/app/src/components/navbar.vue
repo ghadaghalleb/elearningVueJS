@@ -15,7 +15,7 @@
            <div class="col-xs-11 text-right menu-1">
            <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#actualités">Actualités<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#Actualites">Actualités<span class="sr-only">(current)</span></a>
                 </li>
               <li class="nav-item">
                 <a class="nav-link" href="#cours">Cours</a>
@@ -24,7 +24,7 @@
                 <a class="nav-link" href="#certifications">Certifications</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#communauté">Communauté  </a>
+                <a class="nav-link" href="#communaute">Communauté  </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#avis">Avis</a>
@@ -38,7 +38,9 @@
 
 
       <form class=" p-2">
-        <button class="btn btn1-sm btn-outline-pimary" href="#login" type="submit">login </button>         
+       <router-link to="/connexion" class="router">  
+        <div button class="btn btn1-sm btn-outline-pimary" href="#connexion" type="submit"> login  </div>
+        </router-link>    
       </form>
        
       <button class="btn btn-sm btn-outline-primary btn-primary" href="#login" type="submit">
@@ -91,9 +93,9 @@ export default {
 }
 
 .btn.btn1-sm.btn-outline-primary {
- background-color: blue;
+ background-color: #365f9c;
   color: #000670;
-  border-color: #00047a;
+  border-color: #05449f;
   display: inline-block;
   font-weight: 500;
   padding: .25rem .8rem;
@@ -104,7 +106,7 @@ export default {
 .btn-outline-primary{
 
   color: #ffffff;
-  border-color: blue;
+  border-color: #05449f;
   display: inline-block;
   font-weight: 500;
   padding: .25rem .8rem;
