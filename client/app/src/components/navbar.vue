@@ -26,10 +26,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#communaute">Communauté  </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#avis">Avis</a>
-              </li>
-             
+ 
             </ul>
           </div>
         
@@ -39,17 +36,11 @@
 
       <form class=" p-2">
        <router-link to="/connexion" class="router">  
-        <div button class="btn btn1-sm btn-outline-pimary" href="#connexion" type="submit"> login  </div>
+        <div button class="btn btn1-sm " href="#connexion" type="submit"> login  </div>
         </router-link>    
       </form>
        
-      <button class="btn btn-sm btn-outline-primary btn-primary" href="#login" type="submit">
-           Inscrivez-Vous <br>
-            Gratuitement 
-      </button>
-
-     
-
+ 
            
     </div>
   </div>
@@ -80,39 +71,26 @@ export default {
 <style scoped>
 
 .nav-link:hover {
-    font-weight: 700;
-    color: rgba(0,0,0,.7);
+    font-weight: 900;
+    color: rgb(255, 255, 255);
 }
 
 
-
 .navbar {
-  background-color: #ffffff;
+   background-color:none ;
     padding-top: .1rem;
     padding-bottom: .1rem;
 }
 
-.btn.btn1-sm.btn-outline-primary {
- background-color: #365f9c;
-  color: #000670;
-  border-color: #05449f;
+.btn.btn1-sm{
+ background-color: #ffffff;
+  color: #0a0a0a;
+  border:white;
   display: inline-block;
-  font-weight: 500;
-  padding: .25rem .8rem;
+  font-weight: 700;
+  padding: .5rem .8rem;
   line-height: 1;
   border-radius: 1.2rem;
-}
-
-.btn-outline-primary{
-
-  color: #ffffff;
-  border-color: #05449f;
-  display: inline-block;
-  font-weight: 500;
-  padding: .25rem .8rem;
-  line-height: 1;
-  border-radius: 1.2rem;
-
 }
 
 
@@ -122,12 +100,6 @@ export default {
 
 }
 
-.btn-outline-primary:hover{
-background-color: white;
-border: 1px solid blue;
-border-radius: 1.2rem;
-color: blue;
-}
 
 .form-control{
 border-radius: 1.2rem;

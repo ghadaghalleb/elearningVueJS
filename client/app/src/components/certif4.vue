@@ -13,7 +13,7 @@
                          <br> avec un certificat professionnel développé par Google. 
                          <br> Découvrez comment gérer des projets de manière efficace et efficiente, 
                          <br> en utilisant des méthodes traditionnelles et agiles. </p> 
-                       <a class="read_more" href="#Google Project Management">Lire la suite<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                       <a class="read_more" href="#Pay">Lire la suite<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                   </div>
                </div>
                <div class="col-md-5">

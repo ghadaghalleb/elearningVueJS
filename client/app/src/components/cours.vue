@@ -10,8 +10,8 @@
             l'obtention d'une certification professionnelle est un atout indispensable à la réussite de vos projets.</h5>
             <!-- <a class="btn btn-outline-light btn-lg m-2" href="https://www.youtube.com/watch?v=c9B4TPnak1A" role="button"
               rel="nofollow" target="_blank">Login </a> -->
-            <a class="btn btn-outline-light btn-lg m-2" href="https://mdbootstrap.com/docs/standard/" target="_blank"
-              role="button">ESSAYER GRATUITEMENT </a>
+            <a class="btn btn-outline-light btn-lg m-2" href="#payement" target="_blank"
+              role="button">Essayer avec nous  </a>
           </div>
         </div>
       <!-- </div> -->
@@ -23,30 +23,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

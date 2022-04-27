@@ -1,8 +1,8 @@
 <template>
 <div>
     <navbar />
-  
-  <Footer />
+    <cardspay/>
+    <Footer />
 </div>
 
 </template>
@@ -14,6 +14,7 @@
 
 import navbar from '../navbar.vue'
 import Footer from '../Footer.vue'
+import cardspay from '../cardspay.vue'
 
 
 
@@ -22,7 +23,8 @@ import Footer from '../Footer.vue'
   components:
    {
      navbar,
-     Footer
+     Footer,
+      cardspay
       
    }
  }

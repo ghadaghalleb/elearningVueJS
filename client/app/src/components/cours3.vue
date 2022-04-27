@@ -12,7 +12,7 @@
                      <p>Python est l’un des langages de programmation les plus utilisés.
                        <br> Python est un langage facile à apprendre et son code est plus lisible, il est donc plus facile à maintenir.. 
                      </p>     
-                       <a class="read_more">Lire la suite<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                       <a class="read_more" href="#Pay" >Lire la suite<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                   </div>
                </div>
                <div class="col-md-5">

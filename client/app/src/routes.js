@@ -7,6 +7,11 @@ import communaute from "./components/pages/communaute.vue";
 import Actualites from "./components/pages/Actualites.vue";
 import connexion from "./components/pages/connexion.vue";
 import inscription from "./components/pages/inscription.vue";
+import motdepasse from "./components/pages/motdepasse.vue";
+import Pay from "./components/pages/Pay.vue";
+
+
+
 
 
 const routes = [
@@ -16,7 +21,9 @@ const routes = [
   { path: "/communaute", component: communaute},
   { path: "/Actualites", component: Actualites},
   { path: "/connexion", component: connexion},
-  { path: "/inscription", component: inscription}
+  { path: "/inscription", component: inscription},
+  { path: "/motdepasse", component: motdepasse},
+  { path: "/Pay", component: Pay}
 
 
 //   { path: "/notre-ecole", component: ITBS }

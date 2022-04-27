@@ -17,7 +17,7 @@
                     <br>  en front-end (HTML, CSS et JavaScript), en en back-end (Node. js et SQL).
                     <br> Cette formation a pour objectif de former des professionnels du web JavaScript «prêt à l'emploi».
                      </p>
-                     <a class="read_more">Lire la suite <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                     <a class="read_more" href="#Pay">Lire la suite <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                   </div>
                </div>
             </div>

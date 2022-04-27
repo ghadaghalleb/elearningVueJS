@@ -1,95 +1,98 @@
+
+
 <template>
-  <div class="d-flex" >
-
-<div class="header ">
- 
-
-    <h1>Apprenez sans limites</h1>
-    <h2>Développez de nouvelles compétences pour ce sentiment <br> "c'est mon année" avec des cours,
-        des certificats et des diplômes d'universités <br> et d'entreprises de classe mondiale.</h2>
-
-       <div class="d-flex justify-content-center">
-       <button class="btn btn-sm  btn-primary " type="submit">login </button>              
-       <button class="btn btn-sm  btn-primary" type="submit"> Inscrivez-Vous Gratuitement </button>  
+  <section class="baniere" id="baniere">
+    
+      <div class="baniere-text">
+        <h1>LEARN.</h1>
+        <p>Le bon prof, au bon moment </p>
       </div>
-  
-
-
-   </div >
-  </div>
-
+      <div class="baniere_btn">
+        <a href="#login1"> <span></span> Démarrer</a>
+        <a href="#Communaute"> <span></span> Savoir Plus </a>
+      </div>
+  </section>
 </template>
-
 
 
 <script>
 export default {
-  name: 'log-in',
+  name: 'ho-me',
   props: {
     msg: String
   }
 }
 </script> 
 
-<style scoped>
-
-.flotte{
-float: right;
-}
+<style>
 
 
-.header{
-    flex-direction: column;
-    color: rgb(0, 0, 0);
-    padding: 100px;
-    padding-left: 20px;
-    padding-top:  20px;
-}
-.header h1{
-    font-family: 'Playfair Display', serif;
-    font-size: 90px;
-    margin-top: 100px;
-    margin-left: 200px;
-}
-.header h2{
-    margin-top: 20px;
-    margin-left: 200px;
-    font-size: 20px;
-    border-bottom: 2px solid #fff;
-}
-.header button{
-    padding: 3px 50px;
-    margin-top: 20px;
-    margin-left: 10px;
-    
-    color:rgb(255, 255, 255);
-    border:none;
-    margin-bottom: 40px;
-    outline:none;
-    font-size: 20px;  
-    font-family: 'Playfair Display', serif;
-    cursor: pointer;
-    border-radius: 1.2rem;
 
-}
-.header button:hover{
-background-color: rgb(255, 255, 255);
-border: 1px solid blue;
-border-radius: 1.2rem;
-color: blue;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
-img, svg {
-    max-width: 459px;
-    max-height: 497px;
-    margin-left: auto;
-    margin-right: auto;
+
+.baniere{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #6a98bd), url(https://img.freepik.com/photos-gratuite/reunion-brainstorming-travail-equipe-nouveau-projet-demarrage-milieu-travail_2034-1617.jpg?w=1380) center/cover no-repeat;
+  height: 100vh;
+}
+
+
+
+.baniere-text{
+  text-align: center;
+  color: #fff;
+  padding-top: 300px;
+}
+
+.baniere-text h1{
+  font-size: 130px;
+  font-family: 'Lobster', cursive;
+}
+
+.baniere-text p{
+  font-size: 20px;
+  font-style: italic;
+}
+
+.baniere_btn{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.baniere_btn a{
+  width: 150px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 12px 0;
+  color: #fff;
+  border: 1px solid #fff;
+  position: relative;
+  z-index: 1;
+  transition: color 0.6s ease-in;
+}
+.baniere_btn a span{
+    width: 0;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.6s ease-in;
+}
+.baniere_btn a:hover span{
     width: 100%;
-    padding-right: 70px;
-    padding-top: 70px;
-
 }
 
-
-
+.baniere_btn a:hover{
+    color: #000;
+}
 </style>
+

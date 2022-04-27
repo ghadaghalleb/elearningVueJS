@@ -1,14 +1,17 @@
 <template>
 <div>
-    <navbar />
+
+  <navbar />
   <home/> 
- <Carousel/>
-  <Cards />
-  <Section />
-  <Collab/>
-  <Avis />
-  
+  <About/>
+  <chatbot/> 
+  <classes />
+  <registre/>
+  <!-- <Cards /> -->
+  <!-- <Collab/>
+  <Avis /> -->
   <Community/>
+ 
   <Footer />
 </div>
 
@@ -18,14 +21,17 @@
 <script>
 
 import home from '../home.vue'
-import Collab from '../Collab.vue'
+// import Collab from '../Collab.vue'
 import navbar from '../navbar.vue'
-import Carousel from '../Carousel.vue'
-import Cards from '../Cards.vue'
-import Section from '../Section.vue'
-import Avis from '../Avis.vue'
+// import Cards from '../Cards.vue'
+import classes from '../classes.vue'
+// import Avis from '../Avis.vue'
 import Community from '../Community.vue'
+import About from '../About.vue'
 import Footer from '../Footer.vue'
+import Registre from '../registre.vue'
+import chatbot from '../chatbot.vue'
+
 
 
 
@@ -34,14 +40,16 @@ import Footer from '../Footer.vue'
   components:
    {
      navbar,
-     Collab,
-     Carousel,
+    //  Collab,
      home,
-     Cards,
-     Section,
-     Avis,
+     About,
+     chatbot,
+    //  Cards,
+     classes,
+    //  Avis,
      Community,
      Footer,
+      Registre
       
    }
  }

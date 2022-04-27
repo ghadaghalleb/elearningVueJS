@@ -18,7 +18,7 @@
                          <br> Throughout the self-paced online courses,you will immerse yourself in the role of a data 
                          <br> engineer and acquire the essential skills you need to work with a range of  
                          <br> tools and databases to design, deploy and manage structured and unstructured data.  .</p>           
-                          <a class="read_more"  href="#IBM Data Engineering">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                          <a class="read_more"  href="#Pay">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                   </div>
                </div>
             </div>

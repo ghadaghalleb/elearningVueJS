@@ -3,9 +3,8 @@
          <div class="content">
             <header>Connecter Vous ! </header>
             <form action="#">
-               <div class="field">
-                  <!-- <span class="fa fa-user"></span> -->
-                  <input type="text" required placeholder="  Identifiant">
+               <div class="field space">
+                <input type="text" required placeholder=" Votre Email ">
                </div>
                <div class="field space">
                   <!-- <span class="fa fa-lock"></span> -->
@@ -13,7 +12,7 @@
                   <span class="show">SHOW</span>
                </div>
                <div class="pass">
-                  <center><a href="#">Mot de Passe oublié?</a> </center>
+                  <center><a href="#motdepasse">Mot de Passe oublié?</a> </center>
                </div>
                <div class="field">
                   <input type="submit" value="Connexion">
@@ -37,12 +36,51 @@
 
 </template>
 
+
+
+
+
+
 <script>
+import axios from 'axios';
+
 export default {
   name: 'log-in1',
   props: {
     msg: String
-  }
+  },
+
+
+    data() {
+      return {
+        form: {
+          email: '',
+          motdepasse: '',
+        },
+      }
+    },
+    methods: {
+      onSubmit(event) {
+        event.preventDefault()
+        alert(JSON.stringify(this.form))
+      },
+      onReset(event) {
+        event.preventDefault()
+        // Reset our form values
+        this.form.email = ''
+        this.form.motdepasse = ''
+        // Trick to reset/clear native browser form validation state
+        this.show = false
+        this.$nextTick(() => {
+          this.show = true
+        })
+      }
+    },
+
+created(){
+    axios.get('http://localhost:5000');
+}
+
 }
 // const pass_field = document.querySelector('.pass-key');
 //          const showBtn = document.querySelector('.show');

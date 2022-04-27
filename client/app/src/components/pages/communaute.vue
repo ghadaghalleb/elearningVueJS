@@ -1,7 +1,12 @@
 <template>
 <div>
   <navbar/>
-  <communaute/>
+  <carouselcom/>
+  <contactmes/>
+
+  <Footer/> 
+
+ 
 
 </div>
 
@@ -10,16 +15,21 @@
 
 <script>
 
-import communaute from '../communaute.vue'
+
 import navbar from '../navbar.vue'
+import carouselcom from '../carouselcom.vue'
+import Contactmes from '../contactmes.vue'
+import Footer from '../Footer.vue'
+
 
 export default {
    name: 'App',
   components:
    {
-     communaute,
-    navbar
-      
+     carouselcom,
+      navbar,
+      Contactmes,
+      Footer  
    }
  }
 

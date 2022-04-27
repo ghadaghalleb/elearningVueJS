@@ -14,7 +14,7 @@
                      <h2>Meta Marketing Analytics</h2>
                      <span></span>
                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-                     <a class="read_more" href="#Meta Marketing Analytics">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                     <a class="read_more" href="#Pay">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                   </div>
                </div>
             </div>

@@ -13,7 +13,7 @@
                        <br> aux machines la capacité d’apprendre. 
                        <br> Le Machine Learning est explicitement lié au Big Data,étant donné que pour apprendre 
                        <br> et se développer les ordinateurs ont besoin de flux de données à analyser, sur lesquelles s’entraîner. </p>     
-                       <a class="read_more">Lire la suite<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                       <a class="read_more" href="#Pay">Lire la suite<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                   </div>
                </div>
                <div class="col-md-5">
