@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-lg-4 mb-5">
                     <div class="card border-0 bg-light shadow-sm pb-2">
-                        <img class="card-img-top mb-2" src="img/class-1.jpg" alt="">
+                        <img class="card-img-top mb-2" src="https://www.defi-metiers.fr/sites/default/files/styles/mobile_rte/public/visuel_accroche/evenements/adobestock_190198581.jpeg?itok=Lasq74KR" alt="">
                         <div class="card-body text-center">
                             <h4 class="card-title">Drawing Class</h4>
                             <p class="card-text">Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum duo et no et, ipsum ipsum erat duo amet clita duo</p>
@@ -37,7 +37,7 @@
                 </div>
                 <div class="col-lg-4 mb-5">
                     <div class="card border-0 bg-light shadow-sm pb-2">
-                        <img class="card-img-top mb-2" src="img/class-2.jpg" alt="">
+                        <img class="card-img-top mb-2" src="https://quedulourd.com/wp-content/uploads/2020/07/100-gratuit-Cours-de-developpeur-Web-HTML-CSS-JavaScript.jpg" alt="">
                         <div class="card-body text-center">
                             <h4 class="card-title">Language Learning</h4>
                             <p class="card-text">Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum duo et no et, ipsum ipsum erat duo amet clita duo</p>
@@ -65,7 +65,7 @@
                 </div>
                 <div class="col-lg-4 mb-5">
                     <div class="card border-0 bg-light shadow-sm pb-2">
-                        <img class="card-img-top mb-2" src="img/class-3.jpg" alt="">
+                        <img class="card-img-top mb-2" src="https://www.mytaskpanel.com/wp-content/uploads/2021/05/2021-05-14-1.jpg" alt="">
                         <div class="card-body text-center">
                             <h4 class="card-title">Basic Science</h4>
                             <p class="card-text">Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum duo et no et, ipsum ipsum erat duo amet clita duo</p>
