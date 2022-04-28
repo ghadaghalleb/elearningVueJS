@@ -8,8 +8,8 @@
         <p>Le bon prof, au bon moment </p>
       </div>
       <div class="baniere_btn">
-        <a href="#login1"> <span></span> Démarrer</a>
-        <a href="#Communaute"> <span></span> Savoir Plus </a>
+        <a href="#connexion"> <span></span> Démarrer</a>
+        <!-- <a href="About"> <span></span> Savoir Plus </a> -->
       </div>
   </section>
 </template>

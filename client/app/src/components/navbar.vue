@@ -24,7 +24,7 @@
                 <a class="nav-link" href="#certifications">Certifications</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#communaute">Communauté  </a>
+                <a class="nav-link" href="#communaute">Equipe</a>
               </li>
  
             </ul>
@@ -77,6 +77,7 @@ export default {
 
 
 .navbar {
+ 
    background-color:none ;
     padding-top: .1rem;
     padding-bottom: .1rem;
@@ -95,6 +96,7 @@ export default {
 
 
 .nav-link {
+  
     display: block;
     padding: 15px
 

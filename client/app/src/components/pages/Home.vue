@@ -4,16 +4,15 @@
   <navbar />
   <home/> 
   <About/>
-  <chatbot/> 
   <classes />
   <registre/>
-  <!-- <Cards /> -->
+  <Cards />
   <!-- <Collab/>
-  <Avis /> -->
+  -->
   <Community/>
- 
+ <chatbot/> 
   <Footer />
-</div>
+ </div>
 
 </template>
 
@@ -23,9 +22,8 @@
 import home from '../home.vue'
 // import Collab from '../Collab.vue'
 import navbar from '../navbar.vue'
-// import Cards from '../Cards.vue'
+import Cards from '../Cards.vue'
 import classes from '../classes.vue'
-// import Avis from '../Avis.vue'
 import Community from '../Community.vue'
 import About from '../About.vue'
 import Footer from '../Footer.vue'
@@ -44,9 +42,9 @@ import chatbot from '../chatbot.vue'
      home,
      About,
      chatbot,
-    //  Cards,
+     Cards,
      classes,
-    //  Avis,
+
      Community,
      Footer,
       Registre

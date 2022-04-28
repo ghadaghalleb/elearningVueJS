@@ -1,65 +1,64 @@
 <template>   
-
-<div id="fh5co-contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-5 col-md-push-1 ">
-					
-					<div class="fh5co-contact-info">
-					
-						<ul>
-							<li class="address">Tunis , Nabeul </li>
-							<li class="phone">+ 123 456 7899 </li>
-							<li class="email">Learn@yoursite.com </li>
-							
-						</ul>
-					</div>
-
-				</div>
-				<div class="col-md-6 ">
-					<form action="#">
-						<div class="row form-group">
-							<div class="col-md-6">
-								<!-- <label for="fname">First Name</label> -->
-								<input type="text" id="fname" class="form-control" placeholder="Votre Nom">
-							</div>
-							<div class="col-md-6">
-								<!-- <label for="lname">Last Name</label> -->
-								<input type="text" id="lname" class="form-control" placeholder="Votre Prénom">
-							</div>
-						</div>
-
-						<div class="row form-group">
-							<div class="col-md-12">
-								<!-- <label for="email">Email</label> -->
-								<input type="text" id="email" class="form-control" placeholder="Votre email ">
-							</div>
-						</div>
-
-						<div class="row form-group">
-							<div class="col-md-12">
-								<!-- <label for="subject">Subject</label> -->
-								<input type="text" id="subject" class="form-control" placeholder="Votre sujet ">
-							</div>
-						</div>
-
-						<div class="row form-group">
-							<div class="col-md-12">
-								<!-- <label for="message">Message</label> -->
-								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Votre Message s'il vous plais !"></textarea>
-							</div>
-						</div>
-						<div class="form-group">
-							<input type="submit" value="Send Message" class="btn btn-primary">
-						</div>
-
-					</form>		
-				</div>
-			</div>
-			
-		</div>
-	</div>
-
+<div class="container-fluid pt-5">
+        <div class="container">
+            <div class="text-center pb-2">
+                <p class="section-title px-5"><span class="px-2">Get In Touch</span></p>
+                <h1 class="mb-4">Contact Us For Any Query</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-7 mb-5">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="name" placeholder="votre Nom " required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" id="email" placeholder="Votre Email" required="required" data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="subject" placeholder="Sujet" required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" rows="6" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Envoyer </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5 mb-5">
+                    <p>Des questions? Retour? Envoyez votre paragraphe. à nous! Aidez-nous à vous aider à lire plus de contenu de qualité gratuitement sans nuire aux éditeurs</p>
+                    <div class="d-flex">
+                        <i class="fa fa-map-marker-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
+                        <div class="pl-3">
+                            <h5>Address</h5>
+                            <p>123 Nabeul, Tunis</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa fa-envelope d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
+                        <div class="pl-3">
+                            <h5>Email</h5>
+                            <p>LEARN@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa fa-phone-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
+                        <div class="pl-3">
+                            <h5>Phone</h5>
+                            <p>+216 26 520 246 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </template>
 
@@ -77,7 +76,7 @@ export default {
 <style scoped>
 
 
-
+/* 
 .col-md-push-1 {
     left: 8.33333%;
     position: relative;
@@ -143,7 +142,7 @@ h3, .h3 {
 
 
 /* ::::::::::::::::::::::::: */
-.fh5co-contact{
+/* .fh5co-contact{
    
   padding: 7em 0;
   clear: both;
@@ -160,7 +159,7 @@ h3, .h3 {
     margin: 0 0 10px 0;
     list-style: none;
     position: relative;
-}
+} */ 
 /* .fh5co-contact-info ul li:before {
   color: #EA9215;
   position: absolute;

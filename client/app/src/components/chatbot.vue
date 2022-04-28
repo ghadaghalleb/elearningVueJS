@@ -2,7 +2,7 @@
 <input type="checkbox" id="click">
       <label for="click">
       <i class="fab fa-facebook-messenger"></i>
-      <i class="fas fa-times"></i>
+      
       </label>
       <div class="wrapper">
          <div class="head-text">
@@ -47,15 +47,12 @@ export default {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body{
-  overflow: scroll;
-  background: #f2f2f2;
-}
+
 #click{
   display: none;
 }
 label{
-  position: absolute;
+  position: fixed;
   right: 30px;
   bottom: 20px;
   height: 55px;
@@ -69,7 +66,7 @@ label{
   cursor: pointer;
 }
 label i{
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -90,7 +87,7 @@ label i.fas{
   transform: translate(-50%, -50%) rotate(180deg);
 }
 .wrapper{
-  position: absolute;
+  position: fixed;
   right: 30px;
   bottom: 0px;
   max-width: 400px;

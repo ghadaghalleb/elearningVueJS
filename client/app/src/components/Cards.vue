@@ -1,63 +1,49 @@
 <template>
-<div class="cards">
-  <div class=" azerty ">
-  <a href="#" class="btn1 ">  Certificats Professionnels 
-  <i class="fa-solid fa-arrow-right"></i></a>
-  </div>
-<h2 class="text-dark ">Soyez opérationnel pour une carrière convoitée </h2>
-<h3 class="text-dark  ">Percez dans un nouveau secteur comme les technologies de l'information ou la science des données. Aucune expérience préalable n'est requise pour commencer.
-  </h3>  
-    <div class="d-flex justify-content-around m-4" > 
-
-
-      <div class="card" style="width: 18rem;"   >
-       <img class="card-img-top"  src= '../assets/uxdesign.jpg' alt="Card image cap">
-         <div class="card-body">
-          <h5 class="card-title">Google UX <br> design </h5>
-          <p class="card-text">google <br> Certificat Professionnel </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-         </div>
-      </div>
-                 <!-- 2 -->
-
-        <div class="card" style="width: 18rem;"   >
-            <img class="card-img-top"  src= '../assets/metaanal.jpg' alt="Card image cap">
-           <div class="card-body">
-             <h5 class="card-title">Meta Marketing <br> Analytics  </h5>
-              <p class="card-text">Meta <br> Certificat Professionnel </p> 
-             <a href="#" class="btn btn-primary">Go somewhere</a>
+<div class="container-fluid ">
+        <div class="container">
+            <div class="text-center pb-2">
+                <p class="section-title px-5"><span class="px-2">Certificats Professionnels</span></p>
+                <h1 class="mb-4">Soyez opérationnel pour une carrière convoitée</h1>
+            </div>
+            <div class="row pb-3">
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-0 shadow-sm mb-2">
+                        <img class="card-img-top mb-2" src="../assets/ux.png" alt="">
+                        <div class="card-body bg-light text-center p-4">
+                            <h4 class="">Google UX design </h4>
+                           
+                            <p>Lancez-vous dans le domaine en plein essor de la conception de l'expérience utilisateur (UX)  
+                       <br> avec un certificat professionnel développé par Google.</p>
+                            <a href="" class="btn btn-primary px-4 mx-auto my-2">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-0 shadow-sm mb-2">
+                        <img class="card-img-top mb-2" src="../assets/data.png" alt="">
+                        <div class="card-body bg-light text-center p-4">
+                            <h4 class="">Meta Marketing Analytics</h4>
+                            <p> Vous apprendrez également comment utiliser les méta-expériences pour évaluer l'efficacité de votre campagne publicitaire.</p>
+                            <a href="" class="btn btn-primary px-4 mx-auto my-2">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-0 shadow-sm mb-2">
+                        <img class="card-img-top mb-2" src="../assets/ibm.png" alt="">
+                        <div class="card-body bg-light text-center p-4">
+                            <h4 class="">IBM Data Engineering </h4>
+                            
+                            <p>Découvrez comment gérer des projets de manière efficace et efficiente, 
+                         <br> en utilisant des méthodes traditionnelles et agiles.</p>
+                            <a href="" class="btn btn-primary px-4 mx-auto my-2">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
-
-        <!-- 3 -->
-        
-          <div class="card" style="width: 18rem;"   >
-              <img class="card-img-top"  src= '../assets/ibm.jpg' alt="Card image cap">
-                 <div class="card-body">
-            <h5 class="card-title">IBM Data <br>Engineering  </h5>
-             <p class="card-text">IBM <br> Certificat Professionnel </p>
-               <a href="#" class="btn btn-primary">Go somewhere</a>
-           </div>
-          </div>
-
-        <!-- 4 -->
-        
-                <div class="card" style="width: 18rem;"   >
-            <img class="card-img-top"  src= '../assets/gpm.jpg' alt="Card image cap">
-            <div class="card-body">
-             <h5 class="card-title">Google Project Management  </h5>
-             <p class="card-text">google <br> Certificat Professionnel </p>
-             <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-     </div>
-    </div>
-
-
-
-
-
-
-</div>
+    </div> 
 </template>
 
 
@@ -76,31 +62,17 @@ export default {
 <style scoped>
 
 
-.cards{
-margin-top: 200px;
+.btn-primary {
+   
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
 }
 
-.btn1 {
-  font-size: 20px;
-  text-decoration: none;
-  color: rgb(20, 0, 199);
-
-}
-.btn1:hover{
-  text-decoration: underline;
-}
-.azerty{
-  margin-left: 72px;
-}
-.h2,h2 {
-  padding-left: 70px;
-  font-size: 2.5rem;
-
-}
-.h3,h3 {
-   padding-left: 70px;
-   font-size: 1rem;
-
+.btn-primary:hover {
+    color: #fff;
+    background-color: #002b31;
+    border-color: #002b31;
 }
 
 

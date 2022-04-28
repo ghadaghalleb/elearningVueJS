@@ -10,21 +10,21 @@
                 <input type="text" required placeholder=" Votre Email ">
                </div>
                <div class="field space">
-                <input type="password"  class="pass-key" required placeholder=" saisir votre Mot de passe">
+                <input type="password"  class="pass-key" required placeholder=" Mot de passe">
                </div>
-               
+               <div class="field space">
+                <input type="password"  class="pass-key" required placeholder=" Confirmation du Mot de passe">
+               </div>
                
                <div class="field space">
                   <input type="submit" value="Inscription" >
-                  <b-btn variant="outline-primary" @click="addUser">Create</b-btn>
-
+                  <!-- <b-btn variant="outline-primary" @click="addUser"> Create </b-btn> -->
                </div>
             </form>
             <br>
-            
-            <div class="signup">
-               Vous avez deja un compte!
-               <a href="#connexion">Connexion</a>
+           <div class="signup">
+               Retour à 
+               <a href="#conx">Connexion</a>
             </div>
          </div>
   </div>

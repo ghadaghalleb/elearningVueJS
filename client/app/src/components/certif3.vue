@@ -13,7 +13,7 @@
                   <div class="titlepage">
                      <h2>Meta Marketing Analytics</h2>
                      <span></span>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                     <p>Ce cours explore les outils Meta Marketing Analytics. Vous apprendrez comment fonctionne la plate-forme publicitaire et vous apprendrez à créer des publicités à l'aide de Meta Ads Manager. Ensuite, vous apprendrez comment Meta rapporte les résultats et comment vous pouvez personnaliser les rapports en fonction de vos objectifs commerciaux. </p>
                      <a class="read_more" href="#Pay">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                   </div>
                </div>
