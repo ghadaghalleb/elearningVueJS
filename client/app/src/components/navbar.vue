@@ -15,7 +15,7 @@
            <div class="col-xs-11 text-right menu-1">
            <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#Actualites">Actualités<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#Actualites">Nos Packs<span class="sr-only">(current)</span></a>
                 </li>
               <li class="nav-item">
                 <a class="nav-link" href="#cours">Cours</a>

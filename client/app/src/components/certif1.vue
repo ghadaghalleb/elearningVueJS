@@ -47,7 +47,7 @@ export default {
 #intro {
   width:100%;
   height:500px;
-  background-image: url("https://scontent.xx.fbcdn.net/v/t1.15752-9/279143563_530577245297927_8257798819257099158_n.png?stp=dst-png_p206x206&_nc_cat=103&ccb=1-5&_nc_sid=aee45a&_nc_ohc=fv1IkvWAvbQAX8zo5MQ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVIoauyZA92xEH77_AbnQMrTbFTtOZSqnTDg8P3GTgkl0g&oe=629097CC");
+  background-image: url("../assets/bck.jpg");
   background-size: 100% auto;
   height: 70vh;
       }

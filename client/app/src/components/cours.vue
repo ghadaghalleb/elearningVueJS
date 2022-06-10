@@ -43,7 +43,7 @@ export default {
 <style scoped>
 
 #intro {
-        background-image: url("https://media.istockphoto.com/photos/blue-background-watercolor-picture-id1339076397?b=1&k=20&m=1339076397&s=170667a&w=0&h=kVUdaaP_9OzuklLTBjjX_RjTcfahyi28WxgjpFPP_7I=");
+        background-image: url("../assets/bck.jpg");
         height: 70vh;
         background-size: 100% auto;
         

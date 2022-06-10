@@ -1,54 +1,66 @@
 <template>
-<div>
-  <section class="home-testimonial mt-3 ">
-    <div class="container-fluid">
-        <div class="row d-flex justify-content-center testimonial-pos">
-            <div class="col-md-12 pt-4 d-flex justify-content-center">
-                <h3>Testimonials</h3>
+<div class="container-fluid py-5">
+        <div class="container p-0">
+            <div class="text-center pb-2">
+                <p class="section-title px-5"><span class="px-2">Testimonial</span></p>
+                <h1 class="mb-4">What Parents Say!</h1>
             </div>
-            <div class="col-md-12 d-flex justify-content-center ">
-                <h2>Explore the students experience</h2>
-            </div>
-        </div>
-        <section class="home-testimonial-bottom">
-            <div class="container testimonial-inner">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-4 style-3">
-                        <div class="tour-item ">
-                            <div class="tour-desc bg-white">
-                                <div class="tour-text color-grey-3 text-center">“Proposer un MBA en ligne, similaire à un MBA classique, mais à un prix abordable est un véritable défi. Ce programme révolutionne complètement l'enseignement supérieur.”</div>
-                                <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/6625914/pexels-photo-6625914.jpeg" alt=""></div>
-                                <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
-                                <div class="link-position d-flex justify-content-center">Student</div>
-                            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item px-3">
+                    <div class="bg-light shadow-sm rounded mb-4 p-4">
+                        <h3 class="fas fa-quote-left text-primary mr-3"></h3>
+                        Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum clita
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="rounded-circle" src="img/testimonial-1.jpg" style="width: 70px; height: 70px;" alt="Image">
+                        <div class="pl-3">
+                            <h5>Parent Name</h5>
+                            <i>Profession</i>
                         </div>
                     </div>
-                    <div class="col-md-4 style-3">
-                        <div class="tour-item ">
-                            <div class="tour-desc bg-white">
-                                <div class="tour-text color-grey-3 text-center">“Proposer un MBA en ligne, similaire à un MBA classique, mais à un prix abordable est un véritable défi. Ce programme révolutionne complètement l'enseignement supérieur.”</div>
-                                <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
-                                <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
-                                <div class="link-position d-flex justify-content-center">Student</div>
-                            </div>
+                </div>
+                <div class="testimonial-item px-3">
+                    <div class="bg-light shadow-sm rounded mb-4 p-4">
+                        <h3 class="fas fa-quote-left text-primary mr-3"></h3>
+                        Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum clita
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="rounded-circle" src="img/testimonial-2.jpg" style="width: 70px; height: 70px;" alt="Image">
+                        <div class="pl-3">
+                            <h5>Parent Name</h5>
+                            <i>Profession</i>
                         </div>
                     </div>
-                    <div class="col-md-4 style-3">
-                        <div class="tour-item ">
-                            <div class="tour-desc bg-white">
-                                <div class="tour-text color-grey-3 text-center">“Proposer un MBA en ligne, similaire à un MBA classique, mais à un prix abordable est un véritable défi. Ce programme révolutionne complètement l'enseignement supérieur.”</div>
-                                <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/4946604/pexels-photo-4946604.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
-                                <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
-                                <div class="link-position d-flex justify-content-center">Student</div>
-                            </div>
+                </div>
+                <div class="testimonial-item px-3">
+                    <div class="bg-light shadow-sm rounded mb-4 p-4">
+                        <h3 class="fas fa-quote-left text-primary mr-3"></h3>
+                        Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum clita
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="rounded-circle" src="img/testimonial-3.jpg" style="width: 70px; height: 70px;" alt="Image">
+                        <div class="pl-3">
+                            <h5>Parent Name</h5>
+                            <i>Profession</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item px-3">
+                    <div class="bg-light shadow-sm rounded mb-4 p-4">
+                        <h3 class="fas fa-quote-left text-primary mr-3"></h3>
+                        Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum clita
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="rounded-circle" src="img/testimonial-4.jpg" style="width: 70px; height: 70px;" alt="Image">
+                        <div class="pl-3">
+                            <h5>Parent Name</h5>
+                            <i>Profession</i>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
-</section>
-</div>
 </template>
 
 
@@ -57,85 +69,13 @@
 
 <script>
 export default {
-        name: 'Cards-t',
+  name: 'carou-seL',
   props: {
     msg: String
-  }  
+  }
 }
 </script>
 
-
-
 <style scoped>
-.home-testimonial {
-    background-color: #ebf3ff;
-    height: 380px
-}
 
-.home-testimonial-bottom {
-    background-color: rgb(20, 0, 199);
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    position: relative;
-    height: 130px;
-    top: 190px
-}
-
-.home-testimonial h3 {
-    color: var(--orange);
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: rgb(20, 0, 199);
-}
-
-.home-testimonial h2 {
-    color: rgb(20, 0, 199);
-    font-size: 28px;
-    font-weight: 700
-}
-
-.testimonial-inner {
-    position: relative;
-    top: -174px
-}
-
-.testimonial-pos {
-    position: relative;
-    top: 24px
-}
-
-.testimonial-inner .tour-desc {
-    border-radius: 5px;
-    padding: 40px
-}
-
-.color-grey-3 {
-    font-family: "Montserrat", Sans-serif;
-    font-size: 14px;
-    color: #6c83a2
-}
-
-.testimonial-inner img.tm-people {
-    width: 60px;
-    height: 60px;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    max-width: none
-}
-
-.link-name {
-    font-family: "Montserrat", Sans-serif;
-    font-size: 14px;
-    color: #6c83a2
-}
-
-.link-position {
-    font-family: "Montserrat", Sans-serif;
-    font-size: 12px;
-    color: #6c83a2
-}
-</style>
+</style> 

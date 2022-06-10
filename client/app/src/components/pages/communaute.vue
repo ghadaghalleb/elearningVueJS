@@ -1,7 +1,8 @@
 <template>
 <div>
   <navbar/>
-  <carouselcom/>
+  <community/>
+  <!-- <avis/>  -->
   <contactmes/>
 
   <Footer/> 
@@ -17,19 +18,21 @@
 
 
 import navbar from '../navbar.vue'
-import carouselcom from '../carouselcom.vue'
 import Contactmes from '../contactmes.vue'
 import Footer from '../Footer.vue'
+import Community from '../Community.vue'
+// import Avis from '../avis.vue'
 
 
 export default {
    name: 'App',
   components:
    {
-     carouselcom,
       navbar,
       Contactmes,
-      Footer  
+      Footer,
+      Community
+      // Avis  
    }
  }
 
